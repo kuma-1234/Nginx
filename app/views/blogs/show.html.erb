@@ -1,4 +1,11 @@
+<h1>ブログ詳細画面</h1>
+
 <p id="notice"><%= notice %></p>
 
-<%= link_to 'Edit', edit_blog_path(@blog) %> |
+<p>【タイトル】</p>
+<p><%= @blog.title %></p>
+<p>【内容】</p>
+<p><%= @blog.content %></p>
+
+<%= link_to 'Edit', edit_blog_path(@blog) %>
 <%= link_to 'Back', blogs_path %>
