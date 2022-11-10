@@ -6,9 +6,6 @@ module.exports = {
       autoprefixer: {
         flexbox: 'no-2009'
       },
-      "engines": {
-        "node": "16.17.0"
-      },
       stage: 3
     })
   ]
