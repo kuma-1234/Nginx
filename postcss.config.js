@@ -7,7 +7,7 @@ module.exports = {
         flexbox: 'no-2009'
       },
       "engines": {
-        "node": "15.14.0"
+        "node": "16.17.0"
       },
       stage: 3
     })
